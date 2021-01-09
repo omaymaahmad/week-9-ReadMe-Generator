@@ -18,6 +18,18 @@ const questions = [
   },
   {
     type: "input",
+    message: "Describe the application",
+    name: "description",
+    validate: (value) => {
+      if (value) {
+        return true;
+      } else {
+        return "please enter a value to continue";
+      }
+    },
+  },
+  {
+    type: "input",
     message: "How do you use the app?",
     name: "usage",
     validate: (value) => {
@@ -64,15 +76,24 @@ const questions = [
       }
     },
   },
+  {
+      type: "list",
+      message: "What license should this appplication have?",
+      name: "license",
+      choices: ["MIT", "APACHE"]  
+  }
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(fileName, data)
+}
 
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then((userAnswers) => {
     const dataReadMe = generateMarkdown(userAnswers);
+    console.log(userAnswers)
     const currentWorkingDirectory = process.cwd();
     const newFilePath = path.join(
       currentWorkingDirectory,
