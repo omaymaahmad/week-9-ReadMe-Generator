@@ -30,8 +30,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "How do you use the app?",
-    name: "usage",
+    message: "How do you install the app?",
+    name: "installation",
     validate: (value) => {
       if (value) {
         return true;
@@ -42,8 +42,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "How do you install the app?",
-    name: "installation",
+    message: "How do you use the app?",
+    name: "usage",
     validate: (value) => {
       if (value) {
         return true;
@@ -76,12 +76,61 @@ const questions = [
       }
     },
   },
+  // list of license 
   {
       type: "list",
       message: "What license should this appplication have?",
       name: "license",
-      choices: ["MIT", "APACHE"]  
-  }
+      choices: ["MIT", "APACHE", "GNU", "GPL", "N/A"]  
+  },
+  {
+    type: "input",
+    message: "What test's did you conduct on the application?",
+    name: "tests",
+    validate: (value) => {
+      if (value) {
+        return true;
+      } else {
+        return "please enter a value to continue";
+      }
+    },
+  },
+  {
+    type: "input",
+    message: "Enter how/where questions can be asked",
+    name: "questions",
+    validate: (value) => {
+      if (value) {
+        return true;
+      } else {
+        return "please enter a value to continue";
+      }
+    },
+  },
+  {
+    type: "input",
+    message: "Enter your GitHub username",
+    name: "github",
+    validate: (value) => {
+      if (value) {
+        return true;
+      } else {
+        return "please enter a value to continue";
+      }
+    },
+  },
+  {
+    type: "input",
+    message: "Enter your email address",
+    name: "email",
+    validate: (value) => {
+      if (value) {
+        return true;
+      } else {
+        return "please enter a value to continue";
+      }
+    },
+  },
 ];
 
 // function to write README file
