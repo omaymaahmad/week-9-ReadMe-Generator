@@ -24,7 +24,9 @@ A functional table of contents is generated with the entered information.
 * GitHub repository: https://github.com/omaymaahmad/week-9-ReadMe-Generator 
 
 
-* My GitHub: https://github.com/omaymaahmad  
+* [My GitHub](https://github.com/omaymaahmad)  
+
+* My Email: <omayma.ahmad25@gmail.com>
 
 ---
 
