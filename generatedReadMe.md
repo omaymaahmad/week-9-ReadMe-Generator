@@ -1,8 +1,8 @@
-# dgdsgsdh
+# demonstration
 
   ## description 
 
-  sdfjajknfakjgf
+  here the user can enter information on how the web application works.
 
 
 ### Table of Contents
@@ -25,32 +25,32 @@
 
 ## Installation
 
-afgadkgnadkjg
+here the user will input instructions on how to properly install the application.
 
 ## Usage 
 
-dafkjndafbkjafdg
+instructions on how to use the application can be added here.
 
 # License 
 
-GNU
+APACHE
 
 # Report 
 
-dkfnjvdkajfg
+the user can provide information to where the most effective method of reproting can take place.
 
 # Contributions 
 
-dafnvkadfjgnd
+links or specific places to make contributions can be added here.
 
 # Tests 
 
-akfnjafkjng
+informaiton on the tests conducted on the application can be inserted here.
 
 # Questions 
 
-fnjvadkfnkadf
-fvnajfkkajdf
-jndfkvjkdafn
+any other contact methods can be inserted here.
+@testing
+testing@test.com
 
 
