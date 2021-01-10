@@ -19,7 +19,7 @@ A functional table of contents is generated with the entered information.
 ## Links
 
 * A walkthrough video demonstrating the functionality of the application. If the link below does not work you can access the video via the 'Assets' folder and download it from there.
-[[![Demonstration](./Assests/Walk-Through-Video.mov)]
+[![Demonstration](https://drive.google.com/file/d/1RSqazCsvCc74u2Au4DTwee9G3MN_Xn7u/view?usp=sharing)  
 
 * [GitHub repository](https://github.com/omaymaahmad/week-9-ReadMe-Generator) 
 
